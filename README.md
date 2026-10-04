@@ -1,5 +1,8 @@
 # Calculator
 
+## Link
+[Try the calculator](https://ramiel-dan.github.io/calculator/)
+
 ## About
 Simple calculator made with HTML, CSS, and JS.
 
