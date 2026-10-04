@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shay's Calculator</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="page">
+            <div class="main-frame">
+                <div class="screen-area">
+                    <!--input goes here-->
+                    <input type="text" class="calculator-screen" id="calculator-screen" readonly>
+                </div>
+                <div class="calculator-buttons">
+                    <!--operations-->
+                    <div class="operation-buttons">
+                        <button type="button" id="operation-division">/</button>
+                        <button type="button" id="operation-multiplication">*</button>
+                        <button type="button" id="operation-subtraction">-</button>
+                        <button type="button" id="operation-addition">+</button>
+                    </div>
+
+                    <!--numbers-->
+                    <div class="number-grid">
+                        <button type="button" id="number-nine">9</button>
+                        <button type="button" id="number-eight">8</button>
+                        <button type="button" id="number-seven">7</button>
+                        <button type="button" id="number-six">6</button>
+                        <button type="button" id="number-five">5</button>
+                        <button type="button" id="number-four">4</button>
+                        <button type="button" id="number-three">3</button>
+                        <button type="button" id="number-two">2</button>
+                        <button type="button" id="number-one">1</button>
+                        <button type="button" id="number-zero">0</button>
+                        <button type="button" id="button-point">.</button>
+                        <button type="button" id="button-reset">AC</button>
+                    </div>
+
+                    <!--equals-->
+                    <div class="equals-buttons">
+                        <button type="button" id="button-del">DEL</button>
+                        <button type="button" id="button-equals">=</button>
+                    </div>
+                </div>
+
+                <div class="project-watermark">
+                    <p>Made by Shay (@ramiel-dan)</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="contols.js"></script>
+    </body>
+</html>
